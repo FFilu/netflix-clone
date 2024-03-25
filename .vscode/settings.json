@@ -1,3 +1,7 @@
 {
-    "editor.defaultFormatter": "GitHub.copilot"
+    "editor.defaultFormatter": "GitHub.copilot",
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
 }
