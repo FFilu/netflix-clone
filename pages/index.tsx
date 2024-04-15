@@ -2,6 +2,7 @@ import { NextPageContext } from "next";
 import { getSession } from "next-auth/react";
 
 import Navbar from "@/components/Navbar";
+import Billboard from "@/components/Billboard";
 
 import React from "react";
 
@@ -26,7 +27,8 @@ export default function Home() {
 
   return (
       <>
-        <Navbar/>
+        <Navbar />
+        <Billboard />
       </>
   );
 }
