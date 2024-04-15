@@ -1,7 +1,7 @@
 import { NextPageContext } from "next";
 import { getSession } from "next-auth/react";
 
-import Navbar from "@/componets/Navbar";
+import Navbar from "@/components/Navbar";
 
 import React from "react";
 
