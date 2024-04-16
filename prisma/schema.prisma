@@ -24,7 +24,7 @@ model User {
   updatedAt DateTime @updatedAt
   sessions Session[]
   accounts Account[]
-  favoritesIds String[] @db.ObjectId
+  favoriteIds String[] @db.ObjectId
 }
 
 model Account {
